@@ -1,1 +1,1 @@
-console.log("[template-web] Hello World!");
+console.log("[learning-async_await] Hello World!");
