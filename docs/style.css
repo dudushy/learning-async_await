@@ -45,6 +45,13 @@ table {
   background-color: var(--warning);
   color: var(--wall);
   border-radius: 10px;
+  opacity: .6;
+}
+.button-wait:hover {
+  opacity: .8;
+}
+.button-wait:active {
+  opacity: 1;
 }
 
 #h1-result {
