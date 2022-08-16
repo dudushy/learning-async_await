@@ -15,18 +15,22 @@
   </header>
   <hr>
 
-  <div>
-    <h1>Hello World!</h1>
-
-    <button style="background-color: var(--primary)">primary</button>
-    <button style="background-color: var(--secondary)">secondary</button>
-    <button style="background-color: var(--tertiary)">tertiary</button>
-    <button style="background-color: var(--success)">success</button>
-    <button style="background-color: var(--warning)">warning</button>
-    <button style="background-color: var(--danger)">danger</button>
-    <button style="background-color: var(--dark)">dark</button>
-    <button style="background-color: var(--medium)">medium</button>
-    <button style="background-color: var(--light)">light</button>
+  <div id="content">
+    <table>
+      <tr>
+        <td>
+          <button class="button-wait" onclick="showResultAfter(1)">1s</button>
+          <button class="button-wait" onclick="showResultAfter(2)">2s</button>
+          <button class="button-wait" onclick="showResultAfter(5)">5s</button>
+          <button class="button-wait" onclick="showResultAfter(10)">10s</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h1 id="h1-result">RESULT</h1>
+        </td>
+      </tr>
+    </table>
   </div>
 
   <hr>
